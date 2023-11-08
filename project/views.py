@@ -6,7 +6,7 @@ from myapp.models import Members
 
 def homePage(request):
     
-    return render(request,'home.html')
+    return render(request,'index.html')
 
 def signupPage(request):
      if request.method=="POST":
